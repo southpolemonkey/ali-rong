@@ -2,8 +2,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Long+Cang&display=swap" rel="stylesheet">
 
 <title>
 阿哩
@@ -47,15 +47,27 @@ body {
   font-size: 25px;
 }
 
-.chinese-name {
+
+.chinese-body {
   font-family: "Long Cang", cursive;
+  /* font-family: "LXGW WenKai Mono TC", monospace; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 87.5;
+  font-size: 25px;
+}
+
+
+.chinese-name {
+  font-family: "LXGW WenKai Mono TC", monospace;
   font-weight: 700;
   font-style: normal;
 }
 
 .english-name {
   font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;  
 }
@@ -77,14 +89,14 @@ Hello My name is Alistair Rong <br />
 
 I was born on <span> 1 Sep 2025 </span> in Sydney 🇦🇺 <br />
 
-My Chinese name is <text class="chinese-name">戎泩林 (Rong Shenglin)</text> <br />
+My Chinese name is Rong Shenglin <br />
 I was born to <text class="english-name">Chenxuan Rong</text> and <text class="english-name">Mingzhu Zhang</text>  <br />
 
 I have a sister <a href="https://bellarong.com" class="english-name"> Bella </a>
 
 </div>
 
-<div style="text-align:center; margin-top:25px">
+<div style="text-align:center; margin-top:25px" class="chinese-body">
 
 2025年9月1日，我出生在悉尼🦘🐨 <br />
 我的中文名字叫 <text class="chinese-name"> 戎泩林 </text><br />
